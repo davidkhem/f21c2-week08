@@ -33,6 +33,14 @@ async function fetchRateData(){
 }
 
 
+// My guess
+// taking the chart input and push it out
+chartContext.addEventListener('input', () => fxData(
+    chartContext.value)
+);
+
+
+
 // setLocalStorage(key,value) // undefined | true | Exception
 
 // getLocalStorage(key) // {}
